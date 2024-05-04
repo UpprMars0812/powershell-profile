@@ -3,7 +3,11 @@
 A fork of Chris Titus Tech's PowerShell Profile (Pretty PowerShell) (powershell-profile) repo.
 This PowerShell 7.0+ and Windows PowerShell profiles provides a stylish and functional PowerShell profile that looks and feels almost as good as a Linux terminal.
 
-## ⚡ One Line Install (One Line Install script for the legacy Windows PowerShell coming soon)
+***The Windows PowerShell profile that is made entirely based from the existing PowerShell 7.0+ is currently under development. You may use this on your Windows PowerShell environment however installing this profile would require you to do it manually.***
+
+## ⚡ One Line Install
+
+**PowerShell 7.0 or newer:**
 
 Execute the following command in an elevated PowerShell 7.0 or greater window to install the PowerShell profile:
 
@@ -11,7 +15,7 @@ Execute the following command in an elevated PowerShell 7.0 or greater window to
 irm "https://github.com/UpprMars0812/powershell-profile/raw/main/setup.ps1" | iex
 ```
 
-The One Line Install script for the legacy Windows PowerShell will be available soon.
+***The One Line Install script for the legacy Windows PowerShell will be available soon.***
 
 ## 🛠️ Fix the Missing Font
 
