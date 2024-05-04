@@ -1,5 +1,6 @@
-### PowerShell Profile Refactor
+### PowerShell 7.0+ profile
 ### Version 1.03 - Refactored
+### A clone of Christ Titus Tech's "powershell-profile"
 
 # Initial GitHub.com connectivity check with 1 second timeout
 $canConnectToGitHub = Test-Connection github.com -Count 1 -Quiet -TimeoutSeconds 1
