@@ -20,14 +20,14 @@ function Test-InternetConnection {
 function createProfile {
     if ($PSVersionTable.PSEdition -eq "Core") { 
         Invoke-RestMethod https://github.com/UpprMars0812/powershell-profile/raw/main/PwshCore/Microsoft.PowerShell_profile.ps1 -OutFile $PROFILE
-        return true
+        return $true
     }
     elseif ($PSVersionTable.PSEdition -eq "Desktop") {
         Invoke-RestMethod https://github.com/UpprMars0812/powershell-profile/raw/main/WindowsPwsh/Microsoft.PowerShell_profile.ps1 -OutFile $PROFILE
-        return true
+        return $true
     }
     else {
-        return false
+        return $false
     } 
 }
 
