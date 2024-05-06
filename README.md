@@ -7,15 +7,11 @@ This PowerShell 7.0+ and Windows PowerShell profiles provides a stylish and func
 
 ## ⚡ One Line Install
 
-**PowerShell 7.0 or newer:**
-
-Execute the following command in an elevated PowerShell 7.0 or greater window to install the PowerShell profile:
+Execute the following command in an elevated PowerShell window to install the PowerShell profile:
 
 ```
 irm "https://github.com/UpprMars0812/powershell-profile/raw/main/setup.ps1" | iex
 ```
-
-***The One Line Install script for the legacy Windows PowerShell will be available soon.***
 
 ## 🛠️ Fix the Missing Font
 
