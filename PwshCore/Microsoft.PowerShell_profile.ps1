@@ -77,7 +77,7 @@ function prompt {
     if ($isAdmin) { "[" + (Get-Location) + "] # " } else { "[" + (Get-Location) + "] $ " }
 }
 $adminSuffix = if ($isAdmin) { "Administrator:" } else { "" }
-$Host.UI.RawUI.WindowTitle = "$adminSuffix PowerShell {0}" -f $PSVersionTable.PSVersion.ToString()
+$Host.UI.RawUI.WindowTitle = "$adminSuffix PowerShell"
 
 # Utility Functions
 function Test-CommandExists {
