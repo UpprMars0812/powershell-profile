@@ -44,8 +44,8 @@ $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIden
 function prompt {
     if ($isAdmin) { "[" + (Get-Location) + "] # " } else { "[" + (Get-Location) + "] $ " }
 }
-$adminSuffix = if ($isAdmin) { " [ADMIN]" } else { "" }
-$Host.UI.RawUI.WindowTitle = "Windows PowerShell {0}$adminSuffix"
+$adminSuffix = if ($isAdmin) { "Admininstrator:" } else { "" }
+$Host.UI.RawUI.WindowTitle = "$adminSuffix Windows PowerShell"
 
 # Utility Functions
 function Test-CommandExists {
