@@ -271,3 +271,11 @@ if (Get-Command zoxide -ErrorAction SilentlyContinue) {
         Write-Error "Failed to install zoxide. Error: $_"
     }
 }
+
+## This part is "not immune" when you switch PowerShell 7+ to a different language
+Clear-Host
+$Major = $PSVersionTable.PSVersion.Major
+$Minor = $PSVersionTable.PSVersion.Minor
+$Patch = $PSVersionTable.PSVersion.Patch
+Write-Host "PowerShell $Major.$Minor.$Patch"
+Write-Host
