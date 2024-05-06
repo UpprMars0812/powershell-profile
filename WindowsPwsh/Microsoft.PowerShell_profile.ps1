@@ -239,10 +239,3 @@ if (Get-Command zoxide -ErrorAction SilentlyContinue) {
         Write-Error "Failed to install zoxide. Error: $_"
     }
 }
-
-## This part is "not immune" when you switch Windows PowerShell to a different language
-Clear-Host
-Write-Host Windows PowerShell
-Write-Host Copyright (C) Microsoft Corporation. All rights reserved.
-Write-Host Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
-Write-Host
